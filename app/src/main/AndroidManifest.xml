@@ -18,7 +18,6 @@
         </activity>
         <activity android:name=".ui.BitmapRegionDecoderActivity">
         </activity>
-
         <activity android:name=".ui.SnackbarActivity">
         </activity>
         <activity android:name=".ui.BitmapHandlerActivity">
@@ -36,6 +35,8 @@
         <service android:name=".service.DemoIntentService"/>
 
         <activity android:name=".ui.BlurActivity">
+        </activity>
+        <activity android:name=".ui.NotificationActivity">
         </activity>
     </application>
 

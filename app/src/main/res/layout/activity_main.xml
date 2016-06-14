@@ -12,26 +12,40 @@
 
     <Button
         android:id="@+id/btn_bitmapregiondecoder"
+        style="@style/button_default_style"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
         android:text="@string/bitmapregiondecoder_activity"/>
 
     <Button
         android:id="@+id/btn_snackbar"
+        style="@style/button_default_style"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
         android:layout_below="@+id/btn_bitmapregiondecoder"
         android:text="@string/snackbar_activity"/>
+
     <Button
         android:id="@+id/btn_image"
+        style="@style/button_default_style"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
         android:layout_below="@+id/btn_snackbar"
         android:text="@string/image_activity"/>
+
     <Button
         android:id="@+id/btn_service"
+        style="@style/button_default_style"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
         android:layout_below="@+id/btn_image"
         android:text="@string/service_activity"/>
+
+    <Button
+        android:id="@+id/btn_notification"
+        style="@style/button_default_style"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_below="@+id/btn_service"
+        android:text="@string/notification_activity"/>
 </RelativeLayout>
