@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/cake"
+            android:icon="@drawable/menu_ic_cake"
+            android:title="@string/menu_cake"/>
+        <item
+            android:id="@+id/group"
+            android:icon="@drawable/menu_ic_group"
+            android:title="@string/menu_group"/>
+        <item
+            android:id="@+id/mood"
+            android:icon="@drawable/menu_ic_mood"
+            android:title="@string/menu_mood"
+            />
+    </group>
+    <item android:title="sub item">
+        <menu>
+            <item
+                android:id="@+id/notifications"
+                android:icon="@drawable/menu_ic_notifications"
+                android:title="@string/menu_group"/>
+            <item
+                android:id="@+id/pages"
+                android:icon="@drawable/menu_ic_pages"
+                android:title="@string/menu_mood"/>
+        </menu>
+
+    </item>
+
+</menu>

@@ -6,6 +6,7 @@
     <string name="image_activity">图片常用操作</string>
     <string name="service_activity">服务Demo</string>
     <string name="notification_activity">通知Demo</string>
+    <string name="translucent_activity">沉浸式Demo</string>
 
     //service_activity
     <string name="bind_service">绑定本地服务</string>
@@ -18,4 +19,11 @@
     <string name="default_notification">开启默认配置通知</string>
     <string name="patial_custome_notification">开启部分定制通知</string>
     <string name="remoteviews_custome_notification">开启RemoteViews通知</string>
+
+    //menu
+    <string name="menu_cake">蛋糕</string>
+    <string name="menu_group">分组</string>
+    <string name="menu_mood">心情</string>
+    <string name="menu_notifications">通知</string>
+    <string name="menu_pages">翻页</string>
 </resources>

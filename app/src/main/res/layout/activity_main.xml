@@ -48,4 +48,12 @@
         android:layout_height="48dp"
         android:layout_below="@+id/btn_service"
         android:text="@string/notification_activity"/>
+
+    <Button
+        android:id="@+id/btn_translucent"
+        style="@style/button_default_style"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_below="@+id/btn_notification"
+        android:text="@string/translucent_activity"/>
 </RelativeLayout>

@@ -6,4 +6,5 @@
     <color name="tip_color">#1C86EE</color>
     <color name="floatbutton_color">#FFE1FF</color>
     <color name="floatbutton_fipplecolor">#FFF0F5</color>
+    <color name="bg_translucent">#C6E2FF</color>
 </resources>

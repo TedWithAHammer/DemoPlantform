@@ -8,4 +8,7 @@
     <dimen name="view_standard_margin_left">10dp</dimen>
     <dimen name="view_standard_margin_right">10dp</dimen>
 
+    <dimen name="view_standard_height">36dp</dimen>
+    <dimen name="view_standard_width">48dp</dimen>
+
 </resources>
