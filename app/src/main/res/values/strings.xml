@@ -7,6 +7,7 @@
     <string name="service_activity">服务Demo</string>
     <string name="notification_activity">通知Demo</string>
     <string name="translucent_activity">沉浸式Demo</string>
+    <string name="transition_activity">页面跳转共享元素</string>
 
     //service_activity
     <string name="bind_service">绑定本地服务</string>

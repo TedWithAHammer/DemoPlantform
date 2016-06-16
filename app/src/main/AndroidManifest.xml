@@ -42,6 +42,10 @@
             android:name=".ui.TranslucentActivity"
             android:theme="@style/TranslucentTheme">
         </activity>
+        <activity android:name=".ui.Transition1Activity">
+        </activity>
+        <activity android:name=".ui.Transition2Activity">
+        </activity>
     </application>
 
 </manifest>
