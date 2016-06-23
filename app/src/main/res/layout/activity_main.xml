@@ -12,14 +12,14 @@
 
     <Button
         android:id="@+id/btn_bitmapregiondecoder"
-        style="@style/button_default_style"
+        style="@style/DefaultButtonStyle"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
         android:text="@string/bitmapregiondecoder_activity"/>
 
     <Button
         android:id="@+id/btn_snackbar"
-        style="@style/button_default_style"
+        style="@style/DefaultButtonStyle"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
         android:layout_below="@+id/btn_bitmapregiondecoder"
@@ -27,7 +27,7 @@
 
     <Button
         android:id="@+id/btn_image"
-        style="@style/button_default_style"
+        style="@style/DefaultButtonStyle"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
         android:layout_below="@+id/btn_snackbar"
@@ -35,7 +35,7 @@
 
     <Button
         android:id="@+id/btn_service"
-        style="@style/button_default_style"
+        style="@style/DefaultButtonStyle"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
         android:layout_below="@+id/btn_image"
@@ -43,7 +43,7 @@
 
     <Button
         android:id="@+id/btn_notification"
-        style="@style/button_default_style"
+        style="@style/DefaultButtonStyle"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
         android:layout_below="@+id/btn_service"
@@ -51,16 +51,23 @@
 
     <Button
         android:id="@+id/btn_translucent"
-        style="@style/button_default_style"
+        style="@style/DefaultButtonStyle"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
         android:layout_below="@+id/btn_notification"
         android:text="@string/translucent_activity"/>
     <Button
         android:id="@+id/btn_transition"
-        style="@style/button_default_style"
+        style="@style/DefaultButtonStyle"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
         android:layout_below="@+id/btn_translucent"
         android:text="@string/transition_activity"/>
+    <Button
+        android:id="@+id/btn_eventbus"
+        style="@style/DefaultButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_below="@+id/btn_transition"
+        android:text="@string/eventbus_activity"/>
 </RelativeLayout>

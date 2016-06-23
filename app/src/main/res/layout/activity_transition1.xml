@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.leo.demoplantform.ui.Transition1Activity">
+    tools:context="com.leo.demoplantform.ui.activityTrasition.Transition1Activity">
 
     <View
         android:id="@+id/showView1"

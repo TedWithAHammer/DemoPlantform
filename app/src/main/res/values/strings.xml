@@ -8,6 +8,7 @@
     <string name="notification_activity">通知Demo</string>
     <string name="translucent_activity">沉浸式Demo</string>
     <string name="transition_activity">页面跳转共享元素</string>
+    <string name="eventbus_activity">EventBus Demo</string>
 
     //service_activity
     <string name="bind_service">绑定本地服务</string>
@@ -27,4 +28,10 @@
     <string name="menu_mood">心情</string>
     <string name="menu_notifications">通知</string>
     <string name="menu_pages">翻页</string>
+
+    <string name="input_tip">请输入需要分发的消息</string>
+    <string name="send_main_thread">主线程发送</string>
+    <string name="send_work_thread">工作线程发送</string>
+
+    <string name="start_other_activity">跳转到其它页面</string>
 </resources>

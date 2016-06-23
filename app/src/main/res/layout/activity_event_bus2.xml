@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/activity_event_bus2"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.leo.demoplantform.ui.eventBus.EventBusActivity2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:text="this is EventBusActivity2"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btnStartOtherActivity"
+        style="@style/DefaultButtonStyle"
+        android:layout_alignParentBottom="true"
+        android:text="@string/start_other_activity"/>
+
+</RelativeLayout>

@@ -12,17 +12,17 @@
 
     <Button
         android:id="@+id/btnDefaultNotification"
-        style="@style/button_default_style"
+        style="@style/DefaultButtonStyle"
         android:text="@string/default_notification"/>
 
     <Button
         android:id="@+id/btnPatialCustomeNotification"
-        style="@style/button_default_style"
+        style="@style/DefaultButtonStyle"
         android:layout_below="@+id/btnDefaultNotification"
         android:text="@string/patial_custome_notification"/>
     <Button
         android:id="@+id/btnRemoteViewsNotification"
-        style="@style/button_default_style"
+        style="@style/DefaultButtonStyle"
         android:layout_below="@+id/btnPatialCustomeNotification"
         android:text="@string/remoteviews_custome_notification"/>
 

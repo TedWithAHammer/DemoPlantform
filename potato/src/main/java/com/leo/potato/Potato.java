@@ -6,6 +6,7 @@ import android.view.View;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
+import java.util.List;
 
 /**
  * Created by Leo on 2016/5/23.
@@ -41,8 +42,9 @@ public class Potato {
                                 @Override
                                 public void onClick(View v) {
                                     try {
-                                        Method method = act.getClass().getMethod(clickStr,View.class);
-                                        method.invoke(act,v);
+                                        Method method = act.getClass().getDeclaredMethod(clickStr, View.class);
+                                        method.setAccessible(true);
+                                        method.invoke(act, v);
                                     } catch (Exception e) {
                                         e.printStackTrace();
                                     }
@@ -54,7 +56,8 @@ public class Potato {
                                 @Override
                                 public boolean onLongClick(View v) {
                                     try {
-                                        Method method = act.getClass().getMethod(longClickStr);
+                                        Method method = act.getClass().getDeclaredMethod(longClickStr, View.class);
+                                        method.setAccessible(true);
                                         method.invoke(act, v);
                                     } catch (Exception e) {
                                         e.printStackTrace();

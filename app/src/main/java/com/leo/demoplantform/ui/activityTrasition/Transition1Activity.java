@@ -1,4 +1,4 @@
-package com.leo.demoplantform.ui;
+package com.leo.demoplantform.ui.activityTrasition;
 
 import android.app.ActivityOptions;
 import android.content.Intent;
@@ -23,11 +23,17 @@ public class Transition1Activity extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_transition1);
+
         p1 = new Pair(animationView1, ViewCompat.getTransitionName(animationView1));
         p2 = new Pair(animationView2, ViewCompat.getTransitionName(animationView2));
     }
 
     void animationStart(View v) {
         startActivity(new Intent(this, Transition2Activity.class), ActivityOptions.makeSceneTransitionAnimation(this, p1, p2).toBundle());
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
     }
 }

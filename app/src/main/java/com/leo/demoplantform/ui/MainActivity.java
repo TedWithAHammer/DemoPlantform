@@ -6,6 +6,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.leo.demoplantform.R;
+import com.leo.demoplantform.ui.activityTrasition.Transition1Activity;
+import com.leo.demoplantform.ui.eventBus.EventBusActivity1;
+import com.leo.demoplantform.ui.eventBus.EventBusActivity2;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -59,6 +62,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, Transition1Activity.class);
+                startActivity(intent);
+            }
+        });
+        findViewById(R.id.btn_eventbus).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, EventBusActivity2.class);
                 startActivity(intent);
             }
         });
